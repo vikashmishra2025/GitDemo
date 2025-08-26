@@ -8,4 +8,7 @@ public class GitDemoForGitX {
 	public void GitX() {
 		System.out.println("GitX continue from here");
 		}
+	public void GitDemo() {
+		System.out.println("GitDemo will continue from here");
+		}
 }
