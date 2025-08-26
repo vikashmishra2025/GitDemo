@@ -53,5 +53,6 @@ LandingPage landingPage = new LandingPage(driver);
 	String confirmMessage=driver.findElement(By.cssSelector(".hero-primary")).getText();
 	Assert.assertTrue(confirmMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
 	driver.close();
+	//driver.quit();
 	} 
 }
